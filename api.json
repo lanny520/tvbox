@@ -529,33 +529,6 @@
             }
         },
         {
-            "key": "阿里合集",
-            "name": "阿里｜合集",
-            "type": 3,
-            "api": "csp_AliShare",
-            "searchable": 1,
-            "changeable": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "share": "./JS/alishare.txt"
-            },
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "短剧合集",
-            "name": "短剧｜合集",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/短剧合集.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
             "key": "push_agent",
             "name": "手机｜推送",
             "type": 3,
