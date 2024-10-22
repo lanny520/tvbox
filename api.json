@@ -1,8 +1,8 @@
 {
     "spider": "./spider.jar",
     "wallpaper": "https://api.likepoems.com/img/bing",
-  "logo": "./JS/logo.jpg",
-    "homeLogo": "./JS/logo.jpg",
+  "logo": "https://codeberg.org/lanny520/111/raw/branch/main/JS/logo.jpg",
+    "homeLogo": "https://codeberg.org/lanny520/111/raw/branch/main/JS/logo.jpg",
     "sites": [
         {
             "key": "豆瓣",
