@@ -679,13 +679,6 @@
       }
     },
     {
-      "key": "米兔弹幕",
-      "name": "米兔｜弹幕",
-      "type": 3,
-      "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/js/MTDM.js"
-    },
-    {
       "key": "小苹果弹幕",
       "name": "小苹果｜弹幕",
       "type": 3,
@@ -965,14 +958,14 @@
       }
     },
     {
-      "key": "新6V",
-      "name": "🧲新6V┃磁力",
+      "key": "New6v",
+      "name": "New6V｜磁力",
       "type": 3,
-      "api": "csp_SixV",
+      "api": "csp_New6v",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://www.xb6v.com/","jar": ""
+      "filterable": 1,
+      "ext": "https://www.xb6v.com"
     },
    {"key":"csp_SeedHub","name":"🧲SeedHub","type":3,"api":"csp_SeedHub","searchable":1,"quickSearch":1,"filterable":1,"jar": ""}, 
     {
