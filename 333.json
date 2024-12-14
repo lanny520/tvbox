@@ -693,7 +693,7 @@
       "api": "csp_Wexduboku",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./wex.txt"
+      "jar": "./wexq.txt"
     },
     {
       "key": "Wexbaozitv",
@@ -702,7 +702,7 @@
       "api": "csp_Wexbaozitv",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./wex.txt"
+      "jar": "./wexq.txt"
     },
     {
       "key": "IKTV",
