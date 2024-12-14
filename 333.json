@@ -947,6 +947,13 @@
       "playerType": 2,"jar": "./xm.jar"
     },
     {
+      "key": "csp_Xlys",
+      "name": "🍤哔嘀┃米",
+      "api": "csp_Xlys",
+      "type": 3,
+      "playerType": 2,"jar": "./xm.jar"
+    },
+    {
       "key": "荐片弹幕",
       "name": "荐片｜弹幕",
       "type": 3,
@@ -1144,8 +1151,8 @@
     },
     {
       "name": "反弹",
-      "type": 0,
-      "url": "https://jx.hls.one/?url=",
+      "type": 1,
+      "url": "https://150.138.78.37:4399/api?key=2b879e7ecc09a112c1d9f85c42967aca&url=",
       "ext": {
         "flag": [
           "qq",
