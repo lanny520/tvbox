@@ -592,38 +592,6 @@
       "changeable": 1,
       "ext": "https://auete.com/","jar": "./fan.txt"
     }, 
-   {
-      "key": "Lib",
-      "name": "🌟立播┃饭",
-      "type": 3,
-      "api": "csp_Libvio",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      },"jar": "./fan.txt"
-    },
-    {
-      "key": "文采",
-      "name": "💮文采┃饭",
-      "type": 3,
-      "api": "csp_Jpys",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,"jar": "./fan.txt"
-    },
-   {
-      "key": "苹果",
-      "name": "🍎苹果┃饭",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,"jar": "./fan.txt"
-    },
     {
       "key": "zxzj",
       "name": "🍊在线┃饭",
@@ -636,25 +604,6 @@
       "ext": "https://www.zxzjhd.com/","jar": "./fan.txt"
     },
     {
-      "key": "厂长",
-      "name": "📔厂长┃饭",
-      "type": 3,
-      "api": "csp_NewCz",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.czzyvideo.com/","jar": "./fan.txt"
-    },{
-      "key": "低端",
-      "name": "⏮️低端┃饭",
-      "type": 3,
-      "api": "csp_Ddrk",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,"jar": "./fan.txt"
-    },{
       "key": "原创",
       "name": "☀原创┃饭",
       "type": 3,
@@ -666,6 +615,89 @@
       "changeable": 1,"jar": "./fan.txt"
     },
     {
+      "key": "厂长弹幕",
+      "name": "厂长｜弹幕",
+      "type": 3,
+      "api": "csp_Czzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
+      "key": "天天弹幕",
+      "name": "天天｜弹幕",
+      "type": 3,
+      "api": "csp_TianTian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
+      "key": "热播弹幕",
+      "name": "热播｜弹幕",
+      "type": 3,
+      "api": "csp_ReBo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
+      "key": "文才弹幕",
+      "name": "文才｜弹幕",
+      "type": 3,
+      "api": "csp_Jpys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
+      "key": "立播弹幕",
+      "name": "立播｜弹幕",
+      "type": 3,
+      "api": "csp_Libvio",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://www.libvio.cc",
+        "danmu": true
+      }
+    },
+    {
+      "key": "米兔弹幕",
+      "name": "米兔｜弹幕",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/js/MTDM.js"
+    },
+    {
+      "key": "小苹果弹幕",
+      "name": "小苹果｜弹幕",
+      "type": 3,
+      "api": "csp_Xpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
       "key": "饺子影视",
       "name": "饺子｜影视",
       "type": 3,
@@ -673,6 +705,50 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "素白白",
+      "name": "素白白｜影视",
+      "type": 3,
+      "api": "csp_Subaibai",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://subaibai.com"
+    },
+    {
+      "key": "骚火影视",
+      "name": "骚火｜影视",
+      "type": 3,
+      "api": "csp_SaoHuo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "瓜子影视",
+      "name": "瓜子｜影视",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "低端影视",
+      "name": "低端｜影视",
+      "type": 3,
+      "api": "csp_Ddys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "采集之王",
+      "name": "采集｜合集",
+      "type": 3,
+      "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/js/CJZW.js?type=url&params=https://gitee.com/PizazzXS/four-d/raw/master/movie/json/CJJT.json$1$1"
     },
     {
       "key": "hipy_闪电",
@@ -804,7 +880,8 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       },"jar": "./fan.txt"
-    },{
+    },
+    {
       "key": "星剧社",
       "name": "⭐️星剧社",
       "type": 3,
@@ -817,17 +894,6 @@
       },"jar":"./zx.jar"
     },
     {
-      "key": "瓜子",
-      "name": "🍉瓜子┃米",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,"jar": "./xm.jar"
-    },
-    {
       "key": "csp_XSX",
       "name": "👀视讯┃米",
       "type": 3,
@@ -838,21 +904,6 @@
       "playerType": 2,
       "filterable": 1,
       "ext": "","jar":"./xm.jar"
-    },
-    {
-      "key": "csp_SuBaiBai",
-      "name": "☁️白白┃米",
-      "type": 3,
-      "api": "csp_SuBaiBai",
-      "playerType": 2,
-      "ext": "https://subaibai.com/","jar": "./xm.jar"
-    },
-   {
-      "key": "huohuo",
-      "name": "💥火火┃米",
-      "type": 3,
-      "changeable": 0,
-      "api": "csp_SaoHuo","jar": "./xm.jar"
     },
     {
       "key": "csp_MiTuApp",
@@ -881,7 +932,8 @@
         "playKey": "bbssqdbbssll25sx",
         "version": "1.1.0"
       },"jar": "./xm.jar"
-    },{
+    },
+    {
       "key": "csp_视觉",
       "name": "🔭视觉┃PY米",
       "type": 3,
@@ -920,7 +972,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://www.xb6v.com/","jar": "./fan.txt"
+      "ext": "http://www.xb6v.com/","jar": ""
     },
    {"key":"csp_SeedHub","name":"🧲SeedHub","type":3,"api":"csp_SeedHub","searchable":1,"quickSearch":1,"filterable":1,"jar": ""}, 
     {
