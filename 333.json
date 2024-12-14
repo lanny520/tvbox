@@ -696,15 +696,6 @@
       "jar": "./wexq.txt"
     },
     {
-      "key": "Wexbaozitv",
-      "name": "🎇包子┃秒播🎇",
-      "type": 3,
-      "api": "csp_Wexbaozitv",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "./wexq.txt"
-    },
-    {
       "key": "IKTV",
       "name": "KTV｜音乐",
       "type": 3,
