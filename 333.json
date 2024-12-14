@@ -736,12 +736,14 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "采集之王",
-      "name": "采集｜合集",
+   {
+      "key": "真心影视",
+      "name": "真心｜影视",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/js/CJZW.js?type=url&params=https://gitee.com/PizazzXS/four-d/raw/master/movie/json/CJJT.json$1$1"
+      "api": "csp_WebGZ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "hipy_闪电",
