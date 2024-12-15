@@ -1446,9 +1446,42 @@
  {"name":"live3","type":0,"url":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716213337323/live3.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"YueChan•综合","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"范明明•电台","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u","playerType":1},
-{"name":"肥羊•斗鱼","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/douyuyqk.m3u","playerType":1},
-{"name":"肥羊•虎牙","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/huyayqk.m3u","playerType":1},
-{"name":"肥羊•YY","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/yylunbo.m3u","playerType":1},
+{
+            "name": "肥羊国内直播",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/tv.m3u",
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "肥羊TPTV",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/tptv.m3u",
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "肥羊虎牙一起看",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/huyayqk.m3u",
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "肥羊B站直播",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/bililive.m3u",
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "肥羊斗鱼一起看",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/douyuyqk.m3u",
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "肥羊YY轮播",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/yylunbo.m3u",
+            "ua": "okhttp/3.15"
+        },
         {
             "name": "春盈",
             "type": 0,
