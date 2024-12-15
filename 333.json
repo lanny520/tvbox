@@ -1236,6 +1236,11 @@
             "url": "https://bd.jx.cn/?url="
         },
         {
+            "name": "六趣",
+            "type": 0,
+            "url": "http://jx.0v.fit/api.php?url="
+        },
+        {
             "name":"蓝光解析2",
             "type":0,
             "url":"https://dm.xmflv.com:4433/?url="
