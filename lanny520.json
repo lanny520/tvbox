@@ -63,7 +63,7 @@
     },
     {
       "key": "Wexokconfig",
-      "name": "天翼专用｜配置中心",
+      "name": "天翼&移动｜配置中心",
       "type": 3,
       "api": "csp_Wexconfig",
       "jar": "./wex.txt",
