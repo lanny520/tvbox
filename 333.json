@@ -71,7 +71,19 @@
       "changeable": 0,
       "indexs": 0
     },
-        
+    {
+      "key": "115",
+      "name": "115｜4K",
+      "type": 3,
+      "api": "csp_Wex115share",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      },
+      "jar": "./wex.txt"
+    },    
     {
       "key": "玩偶弹幕",
       "name": "玩偶哥哥｜4K弹幕",
@@ -1170,7 +1182,7 @@
                 }
             }
         },
-     {
+    {
       "name": "臻享",
       "type": "1",
       "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
@@ -1198,7 +1210,63 @@
           "User-Agent": "okhttp/4.9.1"
         }
       }
-    },{
+    },
+    {
+      "name": "推荐",
+      "type": 1,
+      "url": "https://jxjson.icu/neibu.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "线路1",
+      "type": 0,
+      "url": "https://jx.quankan.app/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "线路3",
+      "type": 0,
+      "url": "https://jx.aidouer.net/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
+          "referer": "https://jiejie.uk/"
+        }
+      }
+    },
+    {
+      "name": "线路5",
+      "type": 0,
+      "url": "https://jx.yangtu.top?url="
+    },
+    {
       "name": "线路7",
       "type": 0,
       "url": "https://jx.m3u8.tv/jiexi/?url="
