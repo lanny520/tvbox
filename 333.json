@@ -807,15 +807,6 @@
       "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/juzhisan/3/master/闪电.js"
     },
     {
-      "key": "Wexduboku",
-      "name": "🎇独播┃秒播🎇",
-      "type": 3,
-      "api": "csp_Wexduboku",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "./wexq.txt"
-    },
-    {
       "key": "IKTV",
       "name": "KTV｜音乐",
       "type": 3,
