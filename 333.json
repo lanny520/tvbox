@@ -272,6 +272,22 @@
       },
       "timeout": 10
     },
+    {
+      "key": "ppx4k",
+      "name": "皮皮虾｜4K纯净",
+      "type": 3,
+      "playerType":2,
+      "api": "./JS/AppYsV2.js",
+      "ext": {
+      "host": "http://38.55.250.149:1314/api.php/app/",
+         "*": [
+            "http://103.117.123.141:5423/index.php?url="
+              ],
+       "header": {
+            "User-Agent": "okhttp/3.12.11"
+             }
+           }       
+    },
 {
             "key": "腾讯视频",
             "name": "腾讯视频｜蓝光弹幕",
@@ -920,6 +936,14 @@
       "ext": {
         "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
       },"jar":"./zx.jar"
+    },
+    {
+      "key": "csp_Xlys",
+      "name": "🍤哔嘀┃米",
+      "api": "csp_Xlys",
+      "type": 3,
+      "playerType": 2,
+      "jar": "./xm.jar"
     },
     {
       "key": "csp_XSX",
