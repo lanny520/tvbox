@@ -80,7 +80,7 @@
       "ext": {
       "host": "http://38.55.250.149:1314/api.php/app/",
          "*": [
-            "http://103.117.123.141:5423/index.php?url="
+            "http://45.207.215.101:5423/index.php?url="
               ],
        "header": {
             "User-Agent": "okhttp/3.12.11"
@@ -360,15 +360,6 @@
       "name": "瓜子影视｜2k纯净",
       "type": 3,
       "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "比特影视",
-      "name": "比特影视｜蓝光纯净",
-      "type": 3,
-      "api": "csp_Bttwo",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
