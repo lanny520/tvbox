@@ -647,42 +647,6 @@
       }
     },
     {
-      "key": "天天弹幕",
-      "name": "天天｜弹幕",
-      "type": 3,
-      "api": "csp_TianTian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "热播弹幕",
-      "name": "热播｜弹幕",
-      "type": 3,
-      "api": "csp_ReBo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "文才弹幕",
-      "name": "文才｜弹幕",
-      "type": 3,
-      "api": "csp_Jpys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
       "key": "立播弹幕",
       "name": "立播｜弹幕",
       "type": 3,
@@ -971,20 +935,6 @@
       "ext": "sHR2rlsfjI4L3t4RXQMkn8ivSF5g8jXfhsjvizFR8ljN3AOVzpH9pr9GtPv0p/pnhxACPxmzklGulcZ5QfkGRCf6Rs7SjJmolZldAYa939+CUP8xvcjHb492E8waghkGxrtWlTiEC9t4dl/TaQf07LDUAJHsnAKfXpKlbKLXQWnAB8CtibGEXY01QAOeG3k4IaLl5w+AZDEEMHPNX5zL4bnOOk1PYBVZKZWV+DzWC9I=","jar": "./xm.jar"
     },
     {
-      "key": "csp_zhufan",
-      "name": "🚗追饭┃米",
-      "searchable": 1,
-      "quickSearch": 1,
-      "type": 3,
-      "api": "csp_MiTo",
-      "ext": {
-        "url": "http://103.88.35.251:8989",
-        "dataKey": "aassddwwxxllsx1x",
-        "playKey": "bbssqdbbssll25sx",
-        "version": "1.1.0"
-      },"jar": "./xm.jar"
-    },
-    {
       "key": "csp_视觉",
       "name": "🔭视觉┃PY米",
       "type": 3,
@@ -994,13 +944,6 @@
       "api": "https://drive.almondcloud.cn/f/q3JKT9/shijue.py",
       "playerType": 2,
       "filterable": 1,"jar": "./xm.jar"
-    },
-    {
-      "key": "zhaixing",
-      "name": "✨摘星┃米",
-      "type": 3,
-      "api": "csp_AppZX",
-      "playerType": 2,"jar": "./xm.jar"
     },
     {
       "key": "荐片弹幕",
