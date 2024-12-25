@@ -268,103 +268,6 @@
       "timeout": 10
     },
     {
-       "key": "腾讯视频",
-       "name": "腾讯视频｜蓝光弹幕",
-       "type": 3,
-       "api": "./JS/drpy2.min.js",
-       "ext": "./JS/腾讯弹幕.js"
-    },
-    {
-       "key": "芒果视频",
-       "name": "芒果视频｜蓝光弹幕",
-       "type": 3,
-       "api": "./JS/drpy2.min.js",
-       "ext": "./JS/芒果弹幕.js"
-    },
-    {
-       "key": "爱奇艺视频",
-       "name": "爱奇艺视频｜蓝光弹幕",
-       "type": 3,
-       "api": "./JS/drpy2.min.js",
-       "ext": "./JS/爱奇艺弹幕.js"
-    },
-    {
-       "key": "优酷视频",
-       "name": "优酷视频｜蓝光弹幕",
-       "type": 3,
-       "api": "./JS/drpy2.min.js",
-       "ext": "./JS/优酷弹幕.js"
-    },
-    {
-      "key": "厂长弹幕",
-      "name": "厂长影视｜蓝光弹幕",
-      "type": 3,
-      "api": "csp_Czzy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "天天弹幕",
-      "name": "天天影视｜蓝光弹幕",
-      "type": 3,
-      "api": "csp_TianTian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "热播弹幕",
-      "name": "热播影视｜蓝光弹幕",
-      "type": 3,
-      "api": "csp_ReBo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "文才弹幕",
-      "name": "文才影视｜蓝光弹幕",
-      "type": 3,
-      "api": "csp_Jpys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "小苹果弹幕",
-      "name": "苹果影视｜蓝光弹幕",
-      "type": 3,
-      "api": "csp_Xpg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "瓜子影视",
-      "name": "瓜子影视｜2k纯净",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "TGYunPanLocal",
       "name": "TG频道｜4k搜索",
       "type": 3,
@@ -657,64 +560,6 @@
     }
   ],
   "parses": [
-     {
-            "name": "优选1",
-            "type": 1,
-            "url": "http://1.94.221.189:88/algorithm.php?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯视频",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
-        },
-       {
-            "name": "优选2",
-            "type": 1,
-            "url": "http://122.228.85.203:7979/api/?key=ac7be4db3ca9dfbb79ec93a390fa10bb&url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯视频",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
-        },
        {
             "name": "蓝光解析1",
             "type": 0,
@@ -892,6 +737,12 @@
         {
             "name": "直播",
             "type": 0,
+            "url": "https://gitee.com/wu-xuewei520/private/raw/master/JS/长苏影视.txt",
+            "playerType": 2
+        },
+        {
+            "name": "直播1",
+            "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Gather",
             "playerType": 2
         },
@@ -900,42 +751,6 @@
             "type": 0,
             "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
             "playerType": 2
-        },
-        {
-            "name": "肥羊国内直播",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/tv.m3u",
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "肥羊TPTV",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/tptv.m3u",
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "肥羊虎牙一起看",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/huyayqk.m3u",
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "肥羊B站直播",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/bililive.m3u",
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "肥羊斗鱼一起看",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/douyuyqk.m3u",
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "肥羊YY轮播",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/yylunbo.m3u",
-            "ua": "okhttp/3.15"
         }
     ],
   "flags": [
