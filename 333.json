@@ -1512,7 +1512,7 @@
     }
   ],
   "lives": [
-        {"name":"范明•综合","type":0,"url":"https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+        {"name":"范明•综合","type":0,"url":"https://live.fanmingming.cn/tv/m3u/ipv6.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
    {
       "name": "摸鱼",
       "type": 0,
