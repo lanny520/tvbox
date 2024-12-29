@@ -575,7 +575,8 @@
       "style": {
         "type": "list"
       }
-    },{
+    },
+    {
       "key": "926看球",
       "name": "⚽926┃看球",
       "type": 3,
@@ -696,16 +697,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "http://38.55.250.149:1314/api.php/app/"
-    },
-    {
-      "key": "HG影视",
-      "name": "HG影视｜APP",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://cs.hgyx.vip/api2/api.php/app/"
     },
     {
       "key": "饺子影视",
