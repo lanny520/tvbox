@@ -698,6 +698,16 @@
       "ext": "http://38.55.250.149:1314/api.php/app/"
     },
     {
+      "key": "HG影视",
+      "name": "HG影视｜APP",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://cs.hgyx.vip/api2/api.php/app/"
+    },
+    {
       "key": "饺子影视",
       "name": "饺子｜影视",
       "type": 3,
@@ -1244,6 +1254,19 @@
           "PPXLG",
           "皮皮虾4K"
         ]
+      }
+    },
+    {
+      "name": "HGvip",
+      "type": 1,
+      "url": "http://1.94.221.189:88/algorithm.php?url=",
+      "ext": {
+        "flag": [
+          "hgvip"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
       }
     },
     {
