@@ -238,6 +238,22 @@
       }
     },
     {
+            "key": "夸克白嫖弹幕",
+            "name": "白嫖｜4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "https://smdyo.top",
+                "danmu": true
+            }
+        },
+    {
        "key": "雷鲸",
        "name": "雷鲸小站┃天翼4K‍",
        "type": 3,
@@ -1245,19 +1261,6 @@
           "PPXLG",
           "皮皮虾4K"
         ]
-      }
-    },
-    {
-      "name": "HGvip",
-      "type": 1,
-      "url": "http://1.94.221.189:88/algorithm.php?url=",
-      "ext": {
-        "flag": [
-          "hgvip"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
       }
     },
     {
