@@ -176,7 +176,7 @@
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
         "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
         "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "http://feimaouc.cloud:666",
+        "site": "http://1.95.79.193",
         "danmu": true
       }
     },
@@ -245,6 +245,54 @@
         "danmu": true
       }
     },
+        {
+            "key": "夸克白嫖弹幕",
+            "name": "白嫖资源｜4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "https://smdyo.top",
+                "danmu": true
+            }
+        },
+        {
+            "key": "虎斑网盘",
+            "name": "虎斑资源｜4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "http://wp.huban.xyz",
+                "danmu": true
+            }
+        },
+                {
+            "key": "下饭网盘",
+            "name": "下饭资源｜4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "http://txfyyds.top/",
+                "danmu": true
+            }
+        },
     {
        "key": "雷鲸",
        "name": "雷鲸小站┃天翼4K‍",
