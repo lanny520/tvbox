@@ -1163,7 +1163,7 @@
     {
       "name": "反弹1",
       "type": 1,
-      "url": "http://110.40.85.39:81/jxxx/api.php?url=",
+      "url": "http://jx.jiujiutv.fun/api/diy/?key=ScqwPA2ARdBxd9tXdL&url=",
       "ext": {
         "flag": [
           "qq",
@@ -1620,17 +1620,22 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
-    {
-      "name": "米直播",
+   {
+      "name": "直播2",
       "type": 0,
-      "url": "https://tv.iill.top/m3u/Gather",
-      "playerType": 2
-    },
-    {
-      "name": "米直播2",
-      "ua": "",
+      "url": "https://files.catbox.moe/nzej42.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },{
+      "name": "直播1",
       "type": 0,
-      "url": "https://tv.iill.top/m3u/Live"
+      "url": "https://ghproxy.net/raw.githubusercontent.com/Guovin/TV/gd/output/result.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
     {
       "name": "IPV4",
