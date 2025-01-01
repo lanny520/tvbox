@@ -24,7 +24,7 @@
         "keywords": "名称,片名,推荐",
         "tgsearch_url": "http://127.0.0.1:10199",
         "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "ucpanpan,alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000",
+        "channellist": "ucpanpan|1000,ucquark|1000,alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000",
         "proxy": "noproxy",
         "douban": "./pg/douban.json",
         "danmu": true
@@ -254,6 +254,22 @@
             }
         },
     {
+            "key": "下饭网盘",
+            "name": "下饭资源｜4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "http://txfyyds.top/",
+                "danmu": true
+            }
+        },
+    {
        "key": "雷鲸",
        "name": "雷鲸小站┃天翼4K‍",
        "type": 3,
@@ -317,28 +333,6 @@
             "ext": "./JS/优酷弹幕.js"
         },
     {
-      "key": "TGYunPanLocal",
-      "name": "TG频道｜4k搜索",
-      "type": 3,
-      "api": "csp_TGYunPanLocal",
-      "jar": "./pg.txt",
-      "timeout": 120,
-      "ext": {
-        "token": "./pg/tokenm.json",
-        "json": "./pg/tgsearch.json",
-        "keywords": "名称,片名,推荐",
-        "tgsearch_url": "http://127.0.0.1:10199",
-        "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "ucpanpan,oneonefivewpfx,hao115,guaguale115,Channel_Shares_115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,vip115hot,yunpanshare,shareAliyun,ikiviyyp,alyp_1,quanziyuanshe",
-        "proxy": "proxy",
-        "danmu": true
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      }
-    },
-    {
       "key": "TGYunPan",
       "name": "TG群组｜4k搜索",
       "type": 3,
@@ -351,7 +345,7 @@
         "keywords": "名称,片名,推荐",
         "tgsearch_url": "http://127.0.0.1:10199",
         "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "ucpanpan,alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000",
+        "channellist": "ucpanpan|1000,ucquark|1000,alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000",
         "proxy": "noproxy",
         "danmu": true
       },
@@ -359,6 +353,42 @@
         "type": "rect",
         "ratio": 1.77
       }
+    },{
+      "key": "TGYunPanLocal",
+      "name": "TG频道｜4k搜索",
+      "type": 3,
+      "api": "csp_TGYunPanLocal",
+      "jar": "./pg.txt",
+      "timeout": 120,
+      "ext": {
+        "token": "./pg/tokenm.json",
+        "json": "./pg/tgsearch.json",
+        "keywords": "名称,片名,推荐",
+        "tgsearch_url": "http://127.0.0.1:10199",
+        "tgsearch_media_url": "http://127.0.0.1:10199",
+        "channellist": "ucpanpan,ucquark,oneonefivewpfx,hao115,guaguale115,Channel_Shares_115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,vip115hot,yunpanshare,shareAliyun,ikiviyyp,alyp_1,quanziyuanshe",
+        "proxy": "proxy",
+        "danmu": true
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.77
+      }
+    },{
+      "key": "ppx4k",
+      "name": "皮皮虾米｜4K纯净",
+      "type": 3,
+      "playerType":2,
+      "api": "./JS/AppYsV2.js",
+      "ext": {
+      "host": "http://38.55.250.149:1314/api.php/app/",
+         "*": [
+            "http://45.207.215.101:5423/index.php?url="
+              ],
+       "header": {
+            "User-Agent": "okhttp/3.12.11"
+             }
+           }       
     },
     {
       "key": "Wextyso",
