@@ -353,7 +353,8 @@
         "type": "rect",
         "ratio": 1.77
       }
-    },{
+    },
+    {
       "key": "TGYunPanLocal",
       "name": "TG频道｜4k搜索",
       "type": 3,
@@ -374,7 +375,8 @@
         "type": "rect",
         "ratio": 1.77
       }
-    },{
+    },
+    {
       "key": "ppx4k",
       "name": "皮皮虾米｜4K纯净",
       "type": 3,
@@ -633,6 +635,17 @@
         "type": "list"
       },"jar": "./fan.txt"
     },
+    {
+      "key": "88看球",
+      "name": "⚽88┃看球",
+      "type": 3,
+      "api": "csp_Sir88",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },"jar": "./fan.txt"
+    },
    {"key":"88看球","name":"⚽88看球","type":3,"api":"https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/js/lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/js/88看球.js"},
   {"key":"JRKAN直播","name":"JRKAN直播","type":3,"api":"https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/js/lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/js/JRKAN直播.js"},
   {
@@ -677,6 +690,15 @@
       "api": "csp_YCyz",
       "timeout": 15,
       "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,"jar": "./fan.txt"
+    },
+    {
+      "key": "csp_Bttoo",
+      "name": "🍄比特┃饭",
+      "type": 3,
+      "api": "csp_Bttwoo",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,"jar": "./fan.txt"
@@ -1033,6 +1055,14 @@
       "ext": "sHR2rlsfjI4L3t4RXQMkn8ivSF5g8jXfhsjvizFR8ljN3AOVzpH9pr9GtPv0p/pnhxACPxmzklGulcZ5QfkGRCf6Rs7SjJmolZldAYa939+CUP8xvcjHb492E8waghkGxrtWlTiEC9t4dl/TaQf07LDUAJHsnAKfXpKlbKLXQWnAB8CtibGEXY01QAOeG3k4IaLl5w+AZDEEMHPNX5zL4bnOOk1PYBVZKZWV+DzWC9I=","jar": "./xm.jar"
     },
     {
+      "key": "csp_DUODUO",
+      "name": "💨多多┃1080P",
+      "type": 3,
+      "quickSearch": 0,
+      "api": "csp_MiTuApp",
+      "ext": "sHR2rlsfjI4L3t4RXQMkn6HTjU76bdvB3up+9CiGGVZHR3fM8KlJPXSneStHrC+DgWIxl9G+rM70oCwdQkorhrIzUoY/hqgTn/n8VXBDfMYYJQXjRv4wnyIB9zbV+McOQuf9XquqTIYCrvZq2K/XN8gy3u6uGRNLRlVrwt2esQ5pwE+Y8C3ts7ivRub9bEpuB7nN4tthfe6L4f4RdQDHpA==","jar": "./xm.jar"
+    },
+    {
       "key": "csp_视觉",
       "name": "🔭视觉┃PY米",
       "type": 3,
@@ -1040,6 +1070,17 @@
       "changeable": 1,
       "quickSearch": 1,
       "api": "https://drive.almondcloud.cn/f/q3JKT9/shijue.py",
+      "playerType": 2,
+      "filterable": 1,"jar": "./xm.jar"
+    },
+    {
+      "key": "csp_猎手",
+      "name": "💰猎手┃PYTHON",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "https://drive.almondcloud.cn/f/mnyRt1/py_%E7%94%B5%E5%BD%B1%E7%8C%8E%E6%89%8B.py",
       "playerType": 2,
       "filterable": 1,"jar": "./xm.jar"
     },
