@@ -663,6 +663,14 @@
     },
     {"key":"Aid","name":"🚑急救┃饭","type":3,"api":"csp_FirstAid","jar": "./fan.txt","searchable":0,"quickSearch":0,"changeable":0,"style": { "type": "rect", "ratio":3.8}},
     {
+      "key": "Wexduboku",
+      "name": "🎇独播┃秒播🎇",
+      "type": 3,
+      "api": "csp_Wexduboku",
+      "searchable": 1,
+      "changeable": 1,"jar": "./wexq.txt"
+    },
+    {
       "key": "Auete",
       "name": "🏝奥特┃饭",
       "type": 3,
