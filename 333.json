@@ -1658,15 +1658,14 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
+    {
+            "name": "AI直播",
+            "type": 0,
+            "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.m3u",
+            "playerType": 1,
+            "timeout": 10
+        },
    {
-      "name": "直播2",
-      "type": 0,
-      "url": "https://files.catbox.moe/nzej42.m3u",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },{
       "name": "直播1",
       "type": 0,
       "url": "https://ghproxy.net/raw.githubusercontent.com/Guovin/TV/gd/output/result.txt",
@@ -1678,7 +1677,7 @@
     {
       "name": "IPV4",
       "type": 0,
-     "url": "https://ghp.ci/https://raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.m3u",
+     "url": "https://ghproxy.net/https://raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.m3u",
       "playerType": 1
     },
     {
@@ -1749,7 +1748,21 @@
       "timeout": 10,
       "ua": "okhttp/3.15"
     },
+    {
+            "name": "电视Live",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
+            "playerType": 2,
+            "timeout": 10
+        },
         {
+            "name": "网络Live",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Live",
+            "playerType": 2,
+            "timeout": 10
+        },
+    {
             "name": "春盈",
             "type": 0,
             "url": "https://files.catbox.moe/feyax3.txt",
@@ -1758,6 +1771,15 @@
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
             "logo": "https://epg.112114.eu.org/logo/{name}.png"
         },
+      {
+      "name": "直播2",
+      "type": 0,
+      "url": "https://files.catbox.moe/nzej42.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
       {
       "name": "综合1",
       "type": 0,
