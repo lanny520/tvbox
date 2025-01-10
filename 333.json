@@ -377,22 +377,6 @@
       }
     },
     {
-      "key": "ppx4k",
-      "name": "皮皮虾米｜4K纯净",
-      "type": 3,
-      "playerType":2,
-      "api": "./JS/AppYsV2.js",
-      "ext": {
-      "host": "http://38.55.250.149:1314/api.php/app/",
-         "*": [
-            "http://45.207.215.101:5423/index.php?url="
-              ],
-       "header": {
-            "User-Agent": "okhttp/3.12.11"
-             }
-           }       
-    },
-    {
       "key": "Wextyso",
       "name": "天翼云盘｜4k搜索",
       "type": 3,
@@ -754,15 +738,29 @@
       }
     },
     {
-      "key": "皮皮虾",
-      "name": "皮皮虾｜APP",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://38.55.250.149:1314/api.php/app/"
-    },
+            "key": "皮皮虾",
+            "name": "皮皮虾｜APP",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./皮皮虾.json"
+        },{
+            "key": "新视觉影视",
+            "name": "新视觉｜APP",
+            "type": 3,
+            "api": "./新视觉.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },{
+            "key": "人人",
+            "name": "人人｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "caHR0cHM6Ly9qaWVrb3UtMTMxNDA1NDY5OS5jb3MuYXAtY2hvbmdxaW5nLm15cWNsb3VkLmNvbS9qaWVrb3UudHh0fEY1MUY1RDUyRDIzQ0JGMjd8RjUxRjVENTJEMjNDQkYyN3wxOTE="
+        },
     {
       "key": "木头",
       "name": "木头｜App",
@@ -786,17 +784,6 @@
       "api": "csp_Xdai",
       "playerType": 1,
       "ext": "jaHR0cHM6Ly9hcGlhcHBkeXl6dHZ5eWRzcXdkeS42OC5neTo1Njg5fGR5eXp0dmFwaWFwcHl5ZHN8ZHl5enR2YXBpYXBweXlkc3wxMDA="
-    },
-    {
-      "key": "新视觉影视",
-      "name": "新视觉｜APP",
-      "type": 3,
-      "api": "https://gitee.com/PizazzXS/four-d/raw/master/movie/py/XSJ.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
     },
     {
             "key": "虎斑",
@@ -1020,22 +1007,6 @@
       "ext": "s1/kf8dfHZAgs5H4ledT0oVFC1n/KhNfQfc0onBTauGjjbKin/VdMFrfJlKKnt/ClccntSyJqzbI1hHzGUUmZg7v02l1fvcdAH0iCUzGlopNgnI3rkeQtAwS54GySfRT0IRokasLwr5Rr6pm8/lTNJXMTEkq+9mzK976Dvv80seU9riYmFeBD+EBp8RzurdP02PNc0S2aZPlMbdm5yTIQfI8QeSRJGz+0AIsFOyBoPr4LDptq0AAc37KMhnWDCXF","jar": "./xm.jar"
     },
     {
-      "key": "csp_电影",
-      "name": "🎬电影┃1080P",
-      "type": 3,
-      "quickSearch": 0,
-      "api": "csp_MiTuApp",
-      "ext": "s1/kf8dfHZAgs5H4ledT0gNpK7vQhd67t79FMOlp/3hon97gPN02BO+erk3EBCNXM6SamStX8E1N/eOSW8iHnh/V/WWXQik712AKDkDyClacr4JX917KX00fvnFi+PAJCJmEjfkTIInNogcntp+7cErzTorQY87aZkXQz64jcMNBTxpU+OGhfwZ2WqemvRRoQcF3TRFQdK9yVcAPrcKlPHxNivbPun5GntvfOIbWqYyWQSzU7f8y5TSHoXNt3Ag7WpEtt5DdeFwKFlYQ/RcwUw==","jar": "./xm.jar"
-    },
-    {
-      "key": "csp_悠悠",
-      "name": "🍔悠悠┃1080P",
-      "type": 3,
-      "quickSearch": 0,
-      "api": "csp_MiTuApp",
-      "ext": "sHR2rlsfjI4L3t4RXQMknzkBg7Vkp4iTNqyeosAJpHnw6roDAjVKHwM/MZzlXynRCKNQf+PEtIE3pKftvdy035HammwEvPJdXnu53vPsiVjInePtgdaIgmcH8QzBLPlDKW1pNMfczNnMzBOp9pYad354sdlKgFnUBsFuy5KfTh6NymaocNlwJqN85IfMUV4M","jar": "./xm.jar"
-    },
-    {
       "key": "csp_良人",
       "name": "👨良人┃1080P",
       "type": 3,
@@ -1050,14 +1021,6 @@
       "quickSearch": 0,
       "api": "csp_MiTuApp",
       "ext": "sHR2rlsfjI4L3t4RXQMkn8ivSF5g8jXfhsjvizFR8ljN3AOVzpH9pr9GtPv0p/pnhxACPxmzklGulcZ5QfkGRCf6Rs7SjJmolZldAYa939+CUP8xvcjHb492E8waghkGxrtWlTiEC9t4dl/TaQf07LDUAJHsnAKfXpKlbKLXQWnAB8CtibGEXY01QAOeG3k4IaLl5w+AZDEEMHPNX5zL4bnOOk1PYBVZKZWV+DzWC9I=","jar": "./xm.jar"
-    },
-    {
-      "key": "csp_DUODUO",
-      "name": "💨多多┃1080P",
-      "type": 3,
-      "quickSearch": 0,
-      "api": "csp_MiTuApp",
-      "ext": "sHR2rlsfjI4L3t4RXQMkn6HTjU76bdvB3up+9CiGGVZHR3fM8KlJPXSneStHrC+DgWIxl9G+rM70oCwdQkorhrIzUoY/hqgTn/n8VXBDfMYYJQXjRv4wnyIB9zbV+McOQuf9XquqTIYCrvZq2K/XN8gy3u6uGRNLRlVrwt2esQ5pwE+Y8C3ts7ivRub9bEpuB7nN4tthfe6L4f4RdQDHpA==","jar": "./xm.jar"
     },
     {
       "key": "csp_视觉",
