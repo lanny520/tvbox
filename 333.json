@@ -710,17 +710,6 @@
       }
     },
     {
-            "key": "九龙影视",
-            "name": "九龙｜APP",
-            "type": 3,
-            "api": "./九龙影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-    {
             "key": "皮皮虾",
             "name": "皮皮虾｜APP",
             "type": 3,
