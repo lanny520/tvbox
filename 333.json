@@ -270,6 +270,15 @@
             }
         },
     {
+      "key": "Wextyso",
+      "name": "天翼云盘｜4k搜索",
+      "type": 3,
+      "api": "csp_Wextyso",
+      "jar": "./wex.txt",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
        "key": "雷鲸",
        "name": "雷鲸小站┃天翼4K‍",
        "type": 3,
@@ -347,15 +356,6 @@
         "type": "rect",
         "ratio": 1.77
       }
-    },
-    {
-      "key": "Wextyso",
-      "name": "天翼云盘｜4k搜索",
-      "type": 3,
-      "api": "csp_Wextyso",
-      "jar": "./wex.txt",
-      "searchable": 1,
-      "changeable": 0
     },
     {
       "key": "夸克影搜弹幕",
@@ -710,22 +710,6 @@
       }
     },
     {
-            "key": "皮皮虾",
-            "name": "皮皮虾｜APP",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./皮皮虾.json"
-        },{
-            "key": "新视觉影视",
-            "name": "新视觉｜APP",
-            "type": 3,
-            "api": "./新视觉.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },{
             "key": "人人",
             "name": "人人｜APP",
             "type": 3,
@@ -993,17 +977,6 @@
       "quickSearch": 0,
       "api": "csp_MiTuApp",
       "ext": "sHR2rlsfjI4L3t4RXQMkn8ivSF5g8jXfhsjvizFR8ljN3AOVzpH9pr9GtPv0p/pnhxACPxmzklGulcZ5QfkGRCf6Rs7SjJmolZldAYa939+CUP8xvcjHb492E8waghkGxrtWlTiEC9t4dl/TaQf07LDUAJHsnAKfXpKlbKLXQWnAB8CtibGEXY01QAOeG3k4IaLl5w+AZDEEMHPNX5zL4bnOOk1PYBVZKZWV+DzWC9I=","jar": "./xm.jar"
-    },
-    {
-      "key": "csp_视觉",
-      "name": "🔭视觉┃PY米",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "api": "https://drive.almondcloud.cn/f/q3JKT9/shijue.py",
-      "playerType": 2,
-      "filterable": 1,"jar": "./xm.jar"
     },
     {
       "key": "csp_猎手",
