@@ -61,16 +61,20 @@
         "ratio": 1.5
       }
     },
-    {
-      "key": "Wexokconfig",
-      "name": "天翼专用｜配置中心",
-      "type": 3,
-      "api": "csp_Wexconfig",
-      "jar": "./wex.txt",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0
-    },
+   {
+            "key": "影视配置",
+            "name": "影视｜配置",
+            "type": 3,
+            "api": "csp_Wexconfig",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "jar": "./wex.txt"
+        },
     {
       "key": "115",
       "name": "115｜4K",
@@ -286,16 +290,21 @@
        "jar": "./wex.txt",
        "searchable": 1,
        "changeable": 1
-    },
-    { 
+    },{ 
        "key":"盘他",
        "name":"移动盘他┃4K纯净‍",
        "type":3,
        "api":"csp_WexYDpanta",
-       "jar": "./YD.jar",
+       "jar": "./wex.txt",
        "searchable":1,
        "changeable":1
     },
+   {"key":"Panta","name":"盘Ta|网盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			},"jar": "./pg.txt"
+		},
     {
       "key": "哔哩弹幕",
       "name": "哔哩哔哩｜4k弹幕",
