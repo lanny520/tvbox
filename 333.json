@@ -16,17 +16,17 @@
       "name": "TG豆瓣|小白推荐",
       "type": 3,
       "api": "csp_TGDouban",
-      "jar": "./pg.txt",
+      "jar": "https://gh.8090x.eu.org/https://raw.githubusercontent.com/lanny520/tvbox/refs/heads/master/pg.txt",
       "timeout": 120,
       "ext": {
-        "token": "./pg/tokenm.json",
-        "json": "./pg/tgsearch.json",
+        "token": "https://gh.8090x.eu.org/https://raw.githubusercontent.com/lanny520/tvbox/refs/heads/master/pg/tokenm.json",
+        "json": "https://gh.8090x.eu.org/https://raw.githubusercontent.com/lanny520/tvbox/refs/heads/master/pg/tgsearch.json",
         "keywords": "名称,片名,推荐",
-        "tgsearch_url": "http://127.0.0.1:10199",
-        "tgsearch_media_url": "http://127.0.0.1:10199",
+        "tgsearch_url": "http://tg.uu8.pro",
+        "tgsearch_media_url": "http://tg.uu8.pro",
         "channellist": "ucpanpan|1000,ucquark|1000,alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000",
         "proxy": "noproxy",
-        "douban": "./pg/douban.json",
+        "douban": "https://gh.8090x.eu.org/https://raw.githubusercontent.com/lanny520/tvbox/refs/heads/master/pg/douban.json",
         "danmu": true
       },
       "style": {
@@ -52,10 +52,10 @@
       "name": "TG搜索｜配置中心",
       "type": 3,
       "api": "csp_Config",
-      "jar": "./pg.txt",
+      "jar": "https://gh.8090x.eu.org/https://raw.githubusercontent.com/lanny520/tvbox/refs/heads/master/pg.txt",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./pg/tokenm.json",
+      "ext": "https://gh.8090x.eu.org/https://raw.githubusercontent.com/lanny520/tvbox/refs/heads/master/pg/tokenm.json",
       "style": {
         "type": "rect",
         "ratio": 1.5
@@ -347,40 +347,18 @@
       "timeout": 10
     },
     {
-      "key": "TGYunPan",
-      "name": "TG群组｜4k搜索",
-      "type": 3,
-      "api": "csp_TGYunPan",
-      "jar": "./pg.txt",
-      "timeout": 120,
-      "ext": {
-        "token": "./pg/tokenm.json",
-        "json": "./pg/tgsearch.json",
-        "keywords": "名称,片名,推荐",
-        "tgsearch_url": "http://127.0.0.1:10199",
-        "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "ucpanpan|1000,ucquark|1000,alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000",
-        "proxy": "noproxy",
-        "danmu": true
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      }
-    },
-    {
       "key": "TGYunPanLocal",
       "name": "TG频道｜4k搜索",
       "type": 3,
       "api": "csp_TGYunPanLocal",
-      "jar": "./pg.txt",
+      "jar": "https://gh.8090x.eu.org/https://raw.githubusercontent.com/lanny520/tvbox/refs/heads/master/pg.txt",
       "timeout": 120,
       "ext": {
-        "token": "./pg/tokenm.json",
-        "json": "./pg/tgsearch.json",
+        "token": "https://gh.8090x.eu.org/https://raw.githubusercontent.com/lanny520/tvbox/refs/heads/master/pg/tokenm.json",
+        "json": "https://gh.8090x.eu.org/https://raw.githubusercontent.com/lanny520/tvbox/refs/heads/master/pg/tgsearch.json",
         "keywords": "名称,片名,推荐",
-        "tgsearch_url": "http://127.0.0.1:10199",
-        "tgsearch_media_url": "http://127.0.0.1:10199",
+        "tgsearch_url": "http://tg.uu8.pro",
+        "tgsearch_media_url": "http://tg.uu8.pro",
         "channellist": "ucpanpan,ucquark,oneonefivewpfx,hao115,guaguale115,Channel_Shares_115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,vip115hot,yunpanshare,shareAliyun,ikiviyyp,alyp_1,quanziyuanshe",
         "proxy": "proxy",
         "danmu": true
@@ -391,17 +369,25 @@
       }
     },
     {
-      "key": "夸克影搜弹幕",
-      "name": "夸克影搜｜4k搜索",
+      "key": "TGYunPan",
+      "name": "TG群组｜4k搜索",
       "type": 3,
-      "api": "csp_Yingso",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
+      "api": "csp_TGYunPan",
+      "jar": "https://gh.8090x.eu.org/https://raw.githubusercontent.com/lanny520/tvbox/refs/heads/master/pg.txt",
+      "timeout": 120,
       "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "token": "https://gh.8090x.eu.org/https://raw.githubusercontent.com/lanny520/tvbox/refs/heads/master/pg/tokenm.json",
+        "json": "https://gh.8090x.eu.org/https://raw.githubusercontent.com/lanny520/tvbox/refs/heads/master/pg/tgsearch.json",
+        "keywords": "名称,片名,推荐",
+        "tgsearch_url": "http://tg.uu8.pro",
+        "tgsearch_media_url": "http://tg.uu8.pro",
+        "channellist": "ucpanpan|1000,ucquark|1000,alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000",
+        "proxy": "noproxy",
         "danmu": true
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.77
       }
     },
     {
@@ -973,6 +959,13 @@
       "api": "csp_Xlys",
       "type": 3,
       "playerType": 2,
+      "jar": "./xm.jar"
+    },
+    {
+      "key": "csp_Wetv",
+      "name": "🚗尘落┃1080P",
+      "type": 3,
+      "api": "csp_Wetv",
       "jar": "./xm.jar"
     },
     {
